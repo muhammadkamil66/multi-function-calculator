@@ -1,0 +1,64 @@
+.body{
+	background-color: #fd7272 ;
+	font-family: 'Orbitron', sans-serif;
+	
+
+
+}
+
+.container{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.container > *:not(button) {
+    width: 500px;
+    margin-top: 15px;
+}
+
+h1{
+	color: white !important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 45px !important;
+	font-weight: bold !important;
+
+}
+
+
+.input-group{
+	/*width: 300px !important;*/
+	/*display: flex ;
+	justify-content: center ;
+*/	/*align-items: center;*/
+	margin-top: 50px !important;
+}
+
+#buttons{
+	display: flex ;
+	justify-content: center;
+	align-items: center;
+	
+    	
+	
+}
+
+.btn-block{
+    width: 300px !important;
+    margin-top: 1em;
+}
+.alert-danger{
+	height: 150px;
+}
+.btn-light{
+	margin-left: 10px;
+}
+
+#result{
+	margin-top: 30px;
+}
